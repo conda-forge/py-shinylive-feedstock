@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.8.12"
+  version: "0.8.13"
 
 package:
   name: py-shinylive
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/shinylive/shinylive-${{ version }}.tar.gz
-  sha256: cb5c7a1505fb447dea8c1cbf93f57ec72dc5d092eaf4c441ddc754d3c1b7cac1
+  sha256: cdde0c38df1dc2a9e93a11161935ef3d39ced583cf8fdbee717065fac07bfd1d
 
 build:
   noarch: python
